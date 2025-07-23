@@ -3,6 +3,8 @@ from .collider import Collider
 from .direction import Direction, DirectionEnum
 from .input import Input
 from .map_position import MapPosition
+from .movement_intent import MovementIntent
+from .movement_state import MovementState, MovementStatus
 from .npc import NPC
 from .player import Player
 from .position import Position
@@ -17,6 +19,9 @@ __all__ = [
     "DirectionEnum",
     "Input",
     "MapPosition",
+    "MovementIntent",
+    "MovementState",
+    "MovementStatus",
     "NPC",
     "Player",
     "Position",
