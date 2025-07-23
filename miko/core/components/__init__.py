@@ -1,6 +1,6 @@
 from .animation import Animation
 from .collider import Collider
-from .direction import Direction
+from .direction import Direction, DirectionEnum
 from .input import Input
 from .map_position import MapPosition
 from .npc import NPC
@@ -14,6 +14,7 @@ __all__ = [
     "Animation",
     "Collider",
     "Direction",
+    "DirectionEnum",
     "Input",
     "MapPosition",
     "NPC",
