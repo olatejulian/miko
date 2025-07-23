@@ -3,7 +3,7 @@ dev = ["mypy>=1.17.0", "pytest>=8.4.1", "ruff>=0.12.4"]
 
 [project]
 authors = [{ email = "julian.lf.olate@gmail.com", name = "olatejulian" }]
-dependencies = []
+dependencies = ["pygame>=2.6.1"]
 description = "Default template for PDM package"
 license = { text = "MIT" }
 name = "miko"
