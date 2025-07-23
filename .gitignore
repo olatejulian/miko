@@ -1,0 +1,9 @@
+__pycache__
+.history
+.mypy_cache
+.pdm-python
+.pytest_cache
+.ruff_cache
+.venv
+.vscode
+pdm.lock
